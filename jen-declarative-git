@@ -6,5 +6,9 @@ pipeline{
                 git 'git@github.com:jyothsna1991/sparkjava-war-example.git'
             }
         }
+        stage("maven build"){
+        steps{
+            sh "mvn clean package"
+        }
     }
 }
