@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("git checkout"){
             steps{
-                git 'git@github.com:jyothsna1991/myweb.git'
+                git 'git@github.com:jyothsna1991/sparkjava-war-example.git'
             }
         }
     }
