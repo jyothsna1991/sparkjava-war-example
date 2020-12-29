@@ -1,0 +1,10 @@
+pipeline{
+    agent any
+    stages{
+        stage("git checkout"){
+            steps{
+                git 'git@github.com:jyothsna1991/myweb.git'
+            }
+        }
+    }
+}
